@@ -1,18 +1,17 @@
+import './assets/button.css';
+import './App.css';
+import Buttons from './assets/Buttons';
+// import Cloning_Googles_Home from './assets/Cloning_Googles_Home';
 
-// import  ComboBox  from './assets/ComboBox'
-import './App.css'
-import Cloning_Googles_Home from './assets/Cloning_Googles_Home'
-
-function App() {
+const App = () => {
   
 
   return (
     <>
-     
-      {/* <ComboBox/> */}
-      <Cloning_Googles_Home/>
+    {/* <Cloning_Googles_Home/> */}
+    <Buttons/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
