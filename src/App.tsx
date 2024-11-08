@@ -1,7 +1,9 @@
 import './assets/button.css';
 import './App.css';
+import Checkbox_s from './assets/Checkbox_s';
 // import Buttons from './assets/Buttons';
-import ButtonsGroup from './assets/ButtonsGroup';
+// import ButtonsGroup from './assets/ButtonsGroup';
+
 // import Cloning_Googles_Home from './assets/Cloning_Googles_Home';
 
 const App = () => {
@@ -11,7 +13,10 @@ const App = () => {
     <>
     {/* <Cloning_Googles_Home/> */}
     {/* <Buttons/> */}
-    <ButtonsGroup/>
+    {/* <ButtonsGroup/> */}
+    <Checkbox_s/>
+   
+
     </>
   );
 }
